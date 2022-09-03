@@ -38,7 +38,7 @@ document.getElementById('btn-copiar').onclick = (e) => {
 
 //encripta o texto
 function encriptar(stringEncriptada) {
-  let matrixCode = [["e", "eu"], ["i", "imes"], ["a", "ai"], ["o", "oter"], ["u", "usar"]]
+  let matrixCode = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]]
   stringEncriptada = stringEncriptada.toLowerCase()
   for (let i = 0; i < matrixCode.length; i++) {
     if (stringEncriptada.includes(matrixCode[i][0])) {
@@ -50,7 +50,7 @@ function encriptar(stringEncriptada) {
 
 //decodifica o texto
 function decodificar(stringDecriptada) {
-  let matrixCode = [["e", "eu"], ["i", "imes"], ["a", "ai"], ["o", "oter"], ["u", "usar"]]
+  let matrixCode = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]]
   stringDecriptada = stringDecriptada.toLowerCase()
   for (let i = 0; i < matrixCode.length; i++) {
     if (stringDecriptada.includes(matrixCode[i][1])) {
@@ -84,4 +84,3 @@ function inputverificar() {
     }
   });
 }
-
